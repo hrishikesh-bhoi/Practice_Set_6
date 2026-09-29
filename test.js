@@ -7,8 +7,8 @@ function findEligibilityForScholarship(age, isStudent, familyIncome) {
     return "Not Eligible for Scholarship";
 }
 
-// console.log(findEligibilityForScholarship(22, true, 40000));
-// console.log(findEligibilityForScholarship(82, false, 40000));
+ console.log(findEligibilityForScholarship(22, true, 40000));
+ console.log(findEligibilityForScholarship(82, false, 40000));
 
 // Question 2
 
@@ -20,7 +20,7 @@ function isEligibleForPromotion(yearsOfService, isManager) {
     return false;
 }
 
-// console.log(isEligibleForPromotion(7, true));
+ console.log(isEligibleForPromotion(7, true));
 
 // A5 Question:
 const products = [
@@ -40,7 +40,7 @@ const productWithTotalSales = products.map((product) => ({
     product.retailSales + product.onlineSales + product.wholesaleSales
 }))
 
-// console.log(productWithTotalSales);
+ console.log(productWithTotalSales);
 
 const mostProfitableProduct = productWithTotalSales.reduce((acc, curr) => (
     acc.totalSales > curr.totalSales ? acc : curr
